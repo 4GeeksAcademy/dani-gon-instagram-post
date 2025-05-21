@@ -1,0 +1,33 @@
+body{
+    background: gray;
+}
+.post{
+    display: flex;
+    background-color: white;
+    width: 510px;
+    height: 660px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.post img{
+    width: 500px;
+	height: 500px;
+	margin: 5px;
+}
+.derecha{
+    display: flex;
+    text-align: right;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 96%;
+}
+div.post .post-header .derecha{
+    display: inline-block;
+    text-align: right;
+}
+div.post .post-header .ider{
+    display: inline-block;
+}
